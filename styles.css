@@ -1,0 +1,108 @@
+body{
+    background-color: rgba(25,161,173,255);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+   
+}
+.background-top img{
+    position: relative;
+    left: -19em;
+    top: -36em;
+}
+
+.card{
+    position: absolute;
+    left: 40%;
+    top: 8em;
+    height: 22em;
+    border-radius: 12px;
+    background-color: white;
+    z-index: 1;
+    box-shadow: 9px 9px 21px 0px rgba(20,130,149,0.76);
+-webkit-box-shadow: 9px 9px 21px 0px rgba(20,130,149,0.76);
+-moz-box-shadow: 9px 9px 16px 0px rgba(20,130,149,0.76);
+}
+.background-bottom img{
+    position: relative;
+    right: -40em;
+    top: -41em;  
+}
+
+.background-card img {
+    border-radius: 12px 12px 0 0;
+}
+.dev-image img{
+    position: absolute;
+    left: 7.7em;
+    top: 6em;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+.dev-details{
+    position: relative;
+    left: 7.5em;
+    top: 3em;
+}
+.dev-details h4{
+    position: relative;
+    left: 2em;
+    top: -1em;
+}
+.social-media-details{
+    position: relative;
+    top: 2em;
+    border-top:1px solid rgba(218,219,221,255);
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-media-details h2 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+.social-media-details p, .dev-details h4, #dev-age {
+    font-weight: 400;   
+    color: rgba(172,172,173,255); 
+}
+.social-media-details p{
+    text-align: center;
+}
+.attribution {
+     font-size: 11px;
+     position: absolute;
+     top: 54em;
+     left: 52em;
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width : 375px){
+    body{
+        overflow: hidden;
+    }
+    .card{
+        position: absolute;
+        top: 6em;
+        left: 1.2em;
+        width: 90%;
+        
+    }
+    .background-card img {
+        width: 100%;
+    }
+    .dev-details{
+        position: relative;
+        left: 7.3em;
+    }
+    .background-top img{
+        position: relative;
+        left: -51em;
+        top: -36em;
+    }
+    .background-bottom img{
+        position: relative;
+        right: -6em;
+        top: -45.5em;  
+    }
+}
